@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><p id="number"></p>/100</title>
 <body>
 
 <p id="number"></p>
 
 <script>
-document.getElementById("number").innerHTML =
-Math.floor(Math.random() * 100);
+var random = Math.floor(Math.random() * 100);
+document.getElementById("number").innerHTML = random;
+document.title = random;
 </script>
 
 </body>
